@@ -27,5 +27,8 @@ void main () {
   print(s4.isEmpty);
   print(s4.isNotEmpty);
   // 常用方法
-  print(s4.contains("s"));
+  print(s4.contains("s"));  // 字符串是否包含
+  print(s4.substring(0, 4)); // 字符串截取
+  print(s4.startsWith("a"));
+  print(s4.endsWith("a")); 
 }

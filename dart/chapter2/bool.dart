@@ -1,3 +1,9 @@
 void main () {
-    print(true)
+  print(true);
+  bool isTrue = true;
+  if (isTrue) {
+    print(true);
+  }
+  bool isFalse = false;
+  print(isFalse);
 }
