@@ -20,7 +20,7 @@ void main () {
   var b = 2;
   print("a + b = ${a + b}");
   // 简写方式
-  print("a = $a")
+  print("a = $a");
   // 获取字符串长度
   print(s4.length);
   // 判断是否为空
