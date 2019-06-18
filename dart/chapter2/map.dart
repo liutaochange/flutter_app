@@ -21,4 +21,21 @@ void main() {
   print(map2.length);
   print(map2.isNotEmpty);
   print(map2.isEmpty);
+  
+  // 常用方法
+  var map3 = {"a": 4, "b": 5, "c": 6};
+  print(map3.keys); // 输出所有的key
+  print(map3.values); // 输出所有的values
+  print(map3.containsKey("a")); //是否包含某个key
+  print(map3.containsValues(4)); //是否包含某个value
+  map3.remove("a); // 移除某个key
+  print(map3);
+  map3.forEach(f); // 遍历map， 需要传入key和value两个参数
+  
+  var list = [1,2,3,4,5,6];
+  print(list.asMap()); // asMap list转为map
+}
+
+void f (k, v) {
+  print("k=${k},v=${v}");
 }
