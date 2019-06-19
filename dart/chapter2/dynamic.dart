@@ -1,7 +1,7 @@
-void main () {
+void main() {
   print("dynamic");
   var a = 10;
-  a = "100";
+  a = 100;
   print(a);
 
   dynamic b = 20;
@@ -9,8 +9,7 @@ void main () {
   print(b);
 
   var list = new List<dynamic>();
-  list[0] = true;
-  list[1] = false;
-  list[2] = "string";
+  list.add(true);
+  list.addAll([false, "dart"]);
   print(list);
 }
