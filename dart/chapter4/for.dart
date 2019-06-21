@@ -4,4 +4,8 @@ void main() {
   for(var i = 0; i < a.length; i++){
     print(a[i]);
   }
+  print("-----");
+  for(var item in a){
+    print(item);
+  }
 }
