@@ -1,3 +1,4 @@
+// function没有返回值会返回 null
 void main() {
   print("function");
   print(getPerson("张三", 18));
