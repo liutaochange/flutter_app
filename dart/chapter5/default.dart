@@ -4,13 +4,15 @@
 void main() {
   print("default");
 
-  output(String name,{int age = 18,String gender = "女"}){
+  output(String name, {int age = 18, String gender = "女"}) {
     print("name=$name,age=$age,gender=$gender");
   }
+
   output("dart");
   console(int a, [String b = "web", bool c = true]) {
     print("a=$a,b=$b,c=$c");
   }
+
   console(100);
   console(100, "java", false);
 }

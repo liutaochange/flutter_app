@@ -10,5 +10,5 @@ void main() {
   do{
     count++;
     print(count);
-  }while(count < 10)
+  }while(count < 10);
 }

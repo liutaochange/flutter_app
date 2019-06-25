@@ -4,7 +4,7 @@ void main() {
   for(var k in list) {
     print(k);
     if (k == 3) {
-      break // 终止循环  cotinue // 终止当前循环
+      break; // 终止循环  cotinue // 终止当前循环
     }
   }
 }

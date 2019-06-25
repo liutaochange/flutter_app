@@ -9,4 +9,4 @@ String getPerson(name, age) {
   return "name=$name, age=$age";
 }
 
-Number sum = (Number a, Number b) => a + b;
+Function sum = (num a, num b) => a + b;

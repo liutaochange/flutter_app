@@ -3,12 +3,14 @@
 // 可选参数必须在一般参数的后面
 void main() {
   print("arguments");
-  output(String name,{int age,String gender}){
+  output(String name, {int age, String gender}) {
     print("name=$name,age=$age,gender=$gender");
   }
+
   output("dart", age: 20);
   console(int a, [String b, bool c]) {
     print("a=$a,b=$b,c=$c");
   }
+
   console(100, "web", true);
 }
