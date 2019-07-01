@@ -11,9 +11,11 @@ void main() {
 void printDart() {
   print("dart");
 }
+
 String times(str) {
-  return str*3
+  return str * 3;
 }
+
 void callback(str) {
   print(str);
 }

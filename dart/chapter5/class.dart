@@ -9,14 +9,14 @@ void main() {
   var people = new Person();
   people.name = "java";
   people.age = 18;
-  people.work()
+  people.work();
 }
 
 class Person {
   String name;
   int age;
-  final String adress;
+  final String address = 'beijing';
   void work() {
-    print("name=$name, age=$age")
+    print("name=$name, age=$age");
   }
 }

@@ -8,11 +8,11 @@ void main() {
   // 匿名函数赋值给变量
   var func = (str) {
     print(str);
-  }
+  };
   func("dart");
 
   // 匿名函数自执行
-  ((str){
+  ((str) {
     print(str);
   })("java");
 }
