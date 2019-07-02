@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import './color.dart';
+// import './color.dart';
+import './home.dart';
 
-void main() => runApp(ColorApp());
+void main() => runApp(HomeApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
