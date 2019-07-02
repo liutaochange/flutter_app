@@ -18,7 +18,7 @@ import 'package:flutter/material.dart';
 // clip：直接切断，剩下的文字就没有了，感觉不太友好，体验性不好。
 // ellipsis: 在后边显示省略号，体验性较好，这个在工作中经常使用。
 // fade: 溢出的部分会进行一个渐变消失的效果，当然是上线的渐变，不是左右的哦。
-class HomeApp extends StatelessWidget {
+class TextApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
