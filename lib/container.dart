@@ -40,7 +40,7 @@ class ConApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Text widget',
+      title: 'Container widget',
       home: Scaffold(
         body: Center(
           child: Container(

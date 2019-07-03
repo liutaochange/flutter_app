@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 // import './color.dart';
 // import './text.dart';
-import './container.dart';
+// import './container.dart';
+import './image.dart';
 
-void main() => runApp(ConApp());
+void main() => runApp(ImgApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
