@@ -14,7 +14,7 @@ class ListApp extends StatelessWidget {
           child: Container(
             height: 200,
             width: 300,
-            child: MyList,
+            child: MyList(),
           ),
         ),
       ),
