@@ -5,10 +5,10 @@ import 'package:flutter/material.dart';
 // import './list_view.dart';
 // import './image.dart';
 // import './list_horizontal.dart';
-import './dynamic_list.dart';
+// import './dynamic_list.dart'; ListApp(item: new List<String>.generate(1000, (i) => "item $i"))
+import './grid_view.dart';
 
-void main() =>
-    runApp(ListApp(item: new List<String>.generate(1000, (i) => "item $i")));
+void main() => runApp(GridApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
