@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 // import './container.dart';
 // import './list_view.dart';
 // import './image.dart';
-import './list_horizontal.dart';
+// import './list_horizontal.dart';
+import './dynamic_list.dart';
 
-void main() => runApp(ListApp());
+void main() =>
+    runApp(ListApp(item: new List<String>.generate(1000, (i) => "item $i")));
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
