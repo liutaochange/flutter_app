@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-// import './color.dart';
-// import './text.dart';
-// import './container.dart';
-// import './list_view.dart';
-// import './image.dart';
-// import './list_horizontal.dart';
-// import './dynamic_list.dart'; ListApp(item: new List<String>.generate(1000, (i) => "item $i"))
-import './grid_view.dart';
+// import './widget/color.dart';
+// import './widget/text.dart';
+// import './widget/container.dart';
+// import './widget/list_view.dart';
+// import './widget/image.dart';
+// import './widget/list_horizontal.dart';
+// import './widget/dynamic_list.dart'; ListApp(item: new List<String>.generate(1000, (i) => "item $i"))
+// import './widget/grid_view.dart';
+import './widget/row.dart';
 
-void main() => runApp(GridApp());
+void main() => runApp(RowApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
