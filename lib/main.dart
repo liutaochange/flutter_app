@@ -9,9 +9,10 @@ import 'package:flutter/material.dart';
 // import './widget/grid_view.dart';
 // import './widget/row.dart';
 // import './widget/column.dart';
-import './widget/stack.dart';
+// import './widget/stack.dart';
+import './widget/position.dart';
 
-void main() => runApp(StackApp());
+void main() => runApp(PosiApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
