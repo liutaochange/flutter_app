@@ -7,9 +7,10 @@ import 'package:flutter/material.dart';
 // import './widget/list_horizontal.dart';
 // import './widget/dynamic_list.dart'; ListApp(item: new List<String>.generate(1000, (i) => "item $i"))
 // import './widget/grid_view.dart';
-import './widget/row.dart';
+// import './widget/row.dart';
+import './widget/column.dart';
 
-void main() => runApp(RowApp());
+void main() => runApp(ColApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
