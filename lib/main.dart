@@ -13,9 +13,10 @@ import 'package:flutter/material.dart';
 // import './widget/position.dart';
 // import './widget/card_widget.dart';
 // import './widget/navigation.dart';
-import './widget/navigation_param.dart';
+// import './widget/navigation_param.dart';
+import './widget/page_param.dart';
 
-void main() => runApp(NavApp());
+void main() => runApp(PageApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
