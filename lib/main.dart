@@ -12,7 +12,8 @@ import 'package:flutter/material.dart';
 // import './widget/stack.dart';
 // import './widget/position.dart';
 // import './widget/card_widget.dart';
-import './widget/navigation.dart';
+// import './widget/navigation.dart';
+import './widget/navigation_param.dart';
 
 void main() => runApp(NavApp());
 
