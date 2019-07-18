@@ -15,4 +15,5 @@ void main() {
   print(str1);
 
   // 字符串通过$str $str1 拼接
+  // double既可以是整型，也可以是浮点型，但是整型会默认加.0
 }
