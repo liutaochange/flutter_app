@@ -15,9 +15,10 @@ import 'package:flutter/material.dart';
 // import './widget/navigation.dart';
 // import './widget/navigation_param.dart';
 // import './widget/page_param.dart';
-import './widget/assets.dart';
+// import './widget/assets.dart';
+import './widget/wrap.dart';
 
-void main() => runApp(AssetsApp());
+void main() => runApp(WraApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
